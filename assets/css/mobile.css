@@ -12,11 +12,6 @@
         right: -39px;
     }
 }
-
-.myskils img{
-    width: 186px;
-    height: 186px;
-}
 @media only screen and (max-width: 1199px){
     h1 {
         font-size: 74px;
@@ -319,7 +314,7 @@
         z-index: 2;
     }
     .navbar-toggler-icon {
-        border-bottom: 2px solid #fca61f;
+        border-bottom: 2px solid #e20000;
         display: block;
         height: 10px;
         background-image: none !important;
@@ -337,9 +332,9 @@
         font-size: 16px;
     }
     .navbar-collapse{
-        background: #2a2645;
+        background: #fff;
         padding: 15px;
-        box-shadow: 0 0 12px 0 #2a2645;
+        box-shadow: 0 0 12px 0 #e9eefc;
         border-radius: 8px;
     }
     .contact a {
@@ -575,7 +570,7 @@
         padding-top: 0;
     }
     .service-box-item {
-        box-shadow: 0 0 50px 0 #211e39;
+        box-shadow: 0 0 50px 0 #e9eefc;
     }
     .skill-right-con{
         text-align: center;
@@ -869,7 +864,6 @@
     }
     
 }
-
 @media only screen and (max-width: 575px){
     h2 {
         font-size: 26px;
@@ -1107,9 +1101,4 @@
         right: 34px;
         top: 0;
     }  
-    .myskils img{
-        width: 150px;
-        height: 150px;
-    }
 }
-

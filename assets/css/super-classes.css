@@ -11,15 +11,14 @@
 
 -------------------------------------------------------------------*/
 :root {
-    --primary-color:#2a2645;
-    --secondary-color:#fff;
-    --accent:#cd2027;
-    --text-color: #a09cbb;
+    --primary-color:#1f0505;
+    --secondary-color:#07003b;
+    --accent:#e20000;
+    --text-color: #7d7789;
     --off-white-color: #f0f4ff;
-    --light-purple-color:#6f34fe;
+    --light-purple-color:#3a3a3a;
     --white-color:#fff;
-    --light-grey-color:#14213d;
-    --blue-color: #255afc;
+    --light-grey-color:#f2f2ff;
   }
 h1{
     font-size: 85px;
@@ -36,7 +35,7 @@ h4{
 h6{
     font-size: 22px;
     line-height: 24px;
-    color: var(--accent);
+    color: var(--light-purple-color);
 }
 p{
     font-size: 22px;
@@ -51,22 +50,19 @@ p{
     border-radius: 35px;
     line-height: 20px;
     text-decoration: none;
-    box-shadow: 0 0 85px 0 #14213d;
+    box-shadow: 0 0 85px 0 #e9eefc;
     border: 1px solid transparent;
     transition-duration: .3s;
     transition-property: transform;
     transition-timing-function: ease-out;
 }
 .contact a:hover,
-.generic-btn a:hover
-{
+.generic-btn a:hover{
     border-color: var(--light-purple-color);
     background: var(--light-purple-color);
     transform: translateY(-8px);
 }
-/* .generic-btn a:hover{
-    background-color: #fff;
-} */
+
 .generic-btn a{
     background: var(--accent);
     color: var(--white-color);
@@ -76,7 +72,7 @@ p{
     border-radius: 35px;
     line-height: 20px;
     text-decoration: none;
-    box-shadow: 0 0 85px 0 rgba(20, 33, 61, 0.1);
+    box-shadow: 0 0 85px 0 #e9eefc;
     border: 1px solid transparent;
     transition-duration: .3s;
     transition-property: transform;
